@@ -1,0 +1,194 @@
+* {
+	font-family: Roboto, sans-serif;
+}
+
+/*Header*/
+header {
+	background-color: rgba(255, 255, 255, 0.95);
+	position: fixed;
+	width: 100%;
+	display: block;
+	z-index: 2;
+}	
+.logo {
+	height: 45px;
+}	
+.logo img {
+	width: 330px;
+	height: 45px;
+}
+.movie {
+	margin: 10px 0 5px;
+	padding: 0;
+	opacity: 0.5;
+}
+.col-5 span {
+	font-size: 12px;
+	text-align: right;
+	color: gray;
+}
+.caja {
+	width: 160px;
+	opacity: 0.5;
+}
+.contenedor {
+	border: 1px outset #b5b5b5;
+	margin-right: 5px;
+	margin-top: 2px;
+	padding: 0 5px;
+}
+input {
+	border: none;
+	margin: 10px 0;
+	background-color:inherit; 
+	font-size: 11px;
+}
+/*Sección Big Hero 6*/
+ .hero{
+	background-image: url("../img/banner.jpg");
+	background-size: 870px;
+	color: white;
+	background-repeat: no-repeat;
+	background-color: #383838;
+	padding-bottom: 50px;
+	font-size: 12px;
+	position: relative;
+	z-index: 1;
+}
+.logohero{
+	width: 65px;
+	position: relative;
+	margin-left: 190px;
+	margin-top: 203px;
+}
+
+.gris {
+	background-color: #383838;
+	overflow: auto;
+	color: #D3D3D3;
+}
+.titulo {
+	padding: 20px 0;
+	margin: 25px 10px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.cajitaverde {
+	border: 2px solid #3BCF68;
+	color: #3BCF68;
+	border-radius: 10%;
+	padding: 10px;
+	margin: 5px 5px 5px 0;	
+}
+table {
+	margin: 15px 0 10px;
+	margin-right: 70px;
+}
+.tab {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 30px 0 ;
+}
+
+.tab2 {
+	padding-left: 20px;
+}
+.review {
+	font-size: 12px;
+}
+button {
+	color: white;
+	border-radius: 4%;
+	padding: 10px;
+	border: none;
+	margin-top: 10px;
+	text-align: left;
+	width: 170px;
+	font-size: 14px;
+
+}
+.amarillo {
+	background-color: #DFB636;
+}
+.naranja {
+	background-color: #C79355;
+}
+/*Sección: Cartelera*/
+.cartelera {
+	background-color: #DFB636;
+	padding: 30px 10px;
+}
+.cartelera img {
+	width: 170px;
+	height: 190px;
+	margin: 0 8px;
+}
+/*Sección: Buy and News*/
+.buy {
+	padding: 30px;
+}
+.buy h1 {
+	color: black;
+}
+.buy p {
+	font-size: 25px;
+	line-height: 250%;
+}
+.buy button {
+	padding: 25px 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.news {
+	margin: 30px 0;	
+}
+.news :not(h3) {
+	font-size: 12px;
+}
+.noticia {
+	padding: 30px 0;
+	border-bottom: 1px solid;
+}
+.titular {
+	font-weight: bold;
+	color: black;
+}
+.more {
+	color: #DFB636;
+	font-weight: bold;
+	margin: 30px 0;
+}
+/*Sección: Más Cartelera*/
+.mascartelera {
+	padding: 0 30px;
+	margin-bottom: 20px;
+}
+
+.mascartelera img {
+	width: 260px;
+	height: 260px;
+	text-align: center;
+}
+/*Footer*/
+footer {
+	background-color: #F3F3F3;
+	font-size: 11px;
+	padding: 30px;
+}
+
+footer p {
+	margin-bottom: 30px;
+}
+.disclaimer {
+	font-size: 13px;
+	margin-bottom: 0;
+}
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+footer .webs {
+	font-size: 9px;
+	font-weight: bold;
+	margin-bottom: 0;
+}

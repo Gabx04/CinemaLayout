@@ -1,0 +1,57 @@
+<img src="img/logo.png" alt="logo-cinema-xxi">
+
+<img src="img/logo.png" alt="logo-cinema-xxi">
+
+
+<div class="cinema"><img src="img/logo.png" alt="logo-cinema-xxi"></div>
+
+<span class="caract1">Rating</span>
+					<span class="caract2">8,5/10</span>
+					<span class="caract1">Genre</span>
+					<span class="caract2">Animation, Action, Comedy</span>
+					<span class="caract1">Release</span>
+					<span class="caract2">7 November 2014</span>
+
+
+					<img src="img/imagen1.jpg">
+
+						background: url(../img/imagen1.jpg);
+	background-size: 235px 300px;
+	
+	<div class="col-2 movie1">
+					<img src="img/imagen1.jpg">
+				</div>
+				<div class="col-2 movie2">
+					
+				</div>
+				<div class="col-2 movie3">
+					
+				</div>
+				<div class="col-2 movie4">
+					
+				</div>
+				<div class="col-2 movie5">
+					
+				</div>
+				<div class="col-2 movie6">
+					
+				</div>
+.cabecera {
+	position: fixed;
+
+
+background: url("../img/logo.png");
+	height: 45px;
+	background-size: 330px 45px;
+	background-repeat: no-repeat;
+
+.hero{
+	background-image: url("../img/banner.jpg");
+	background-size: 870px;
+	color: white;
+	background-repeat: no-repeat;
+	background-color: #383838;
+	padding-bottom: 50px;
+	font-size: 12px;
+	position: relative;
+}
